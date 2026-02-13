@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+easyocr
+mss
+pyautogui
+opencv-python
+numpy
+# Install PyTorch with CUDA support manually or via extra-index:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch --index-url https://download.pytorch.org/whl/cu118
+torchvision --index-url https://download.pytorch.org/whl/cu118
