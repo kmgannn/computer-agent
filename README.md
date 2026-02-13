@@ -20,14 +20,13 @@ Node.js & NPM
 Python 3.10+
 Rust (Cargo)
 CUDA Toolkit (Optional, for GPU acceleration)
+
 2. Frontend & Rust Setup
 Navigate to the project root and install dependencies:
-
-cd d:\KM\agent\commerce_agent
 npm install
+
 3. Python Backend Setup
 Navigate to the backend folder and install Python dependencies:
-
 cd backend
 pip install -r requirements.txt
 Note: If you have a GPU, ensure you install the CUDA-enabled version of PyTorch manually if needed.
@@ -37,15 +36,15 @@ Step 1: Start the Python Brain
 This must be running for the agent to "see".
 
 # In terminal 1
-cd d:\KM\agent\commerce_agent\backend
+Go to the backend directory \backend
 python main.py
 Wait for "✅ BRAIN READY" message.
 
 Step 2: Start the Tauri Overlay
 # In terminal 2
-cd d:\KM\agent\commerce_agent
 npm run tauri dev
 Verification Scenarios
+
 1. Overlay Check
 Expected: A transparent window covers your screen. You can click through it.
 Action: Press Cmd+K (or Ctrl+K) to focus the agent bar.
